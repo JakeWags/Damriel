@@ -7,6 +7,18 @@
     <title>Damriel</title>
   </head>
   <body>
+    <style>
+      .big {
+        font-size: 50px;
+      }
+    </style>
+
+    <div id="app">
+      <input v-model="firstName" />
+      <p class="big">
+        {{ firstName }}
+      </p>
+    </div>
 
 
     <script src="./scripts/main.js" charset="utf-8"></script>
