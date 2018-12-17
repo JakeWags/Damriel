@@ -14,9 +14,12 @@
     </style>
 
     <div id="app">
-      <input v-model="firstName" />
+      <input v-model="message" placeholder="I will encode a message!" />
       <p class="big">
-        {{ firstName }}
+        {{ encodedMessage }}
+      </p>
+      <p class="big">
+        {{ decodedMessage }}
       </p>
     </div>
 
