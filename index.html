@@ -3,27 +3,13 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./stylesheets/index.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <title>Damriel</title>
   </head>
   <body>
-    <style>
-      .big {
-        font-size: 50px;
-      }
-    </style>
+    <main>
+      <h1 id="test">My sample</h1>
+    </main>
+    <script data-main="./scripts/main.js" src="./scripts/r.js" charset="utf-8"></script>
 
-    <div id="app">
-      <input v-model="message" placeholder="I will encode a message!" />
-      <p class="big">
-        {{ encodedMessage }}
-      </p>
-      <p class="big">
-        {{ decodedMessage }}
-      </p>
-    </div>
-
-
-    <script src="./scripts/main.js" charset="utf-8"></script>
   </body>
 </html>

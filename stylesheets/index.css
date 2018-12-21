@@ -1,0 +1,40 @@
+/* ---------------- Color Variables ---------------- */
+:root {
+  --gunmetal: #272838;
+  --purple: #5D537B;
+  --matte: #7D6B91;
+  --lightPurple: #989FCB;
+  --lightBlue: #347FC4;
+  --offWhite: #eceded;
+}
+
+/* ---------------- Elements ---------------- */
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--gunmetal);
+  font-family: serif;
+  color: var(--offWhite);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+  font-family: verdana, serif;
+}
