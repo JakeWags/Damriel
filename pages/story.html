@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./../stylesheets/index.css">
+    <title>Damriel</title>
+  </head>
+  <body>
+    <main>
+      <div class="pageTitle">
+        <h1><a href="#">Damriel</a></h1>
+      </div>
+      <div class="resourceBar">
+        <img src="./../images/coins.svg" style="height: 24px; width: 24px;"/>
+        <span id="coins"></span>
+        <div class="linkButton floatRight resetButton">
+          <a id="reset">Reset</a>
+        </div>
+      </div>
+      <div class="story">
+        <div class="nextButton noSelect" id="nextButton">
+          <a>Next</a>
+        </div>
+        <p id="storyText">
+          Welcome to Damriel, a land where anything is possible...
+        </p>
+        <input type="text" name="Name" value="John" placeholder="Input your name please" style="display:none;" id="nameInput"/>
+        <input type="submit" value="Submit" id="submitName" style="display:none;"/>
+      </div>
+      <div class="storyButtons">
+        <div class="centerText linkButton">
+          <a class="linkButton" id="continueButton" style="display:none" href="./homepage.html">Continue...</a>
+        </div>
+      </div>
+    </main>
+    <script data-main="./../scripts/app.js" src="./../scripts/r.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,12 +1,4 @@
-/* ---------------- Color Variables ---------------- */
-:root {
-  --gunmetal: #272838;
-  --purple: #5D537B;
-  --matte: #7D6B91;
-  --lightPurple: #989FCB;
-  --lightBlue: #347FC4;
-  --offWhite: #eceded;
-}
+@import "colors.css";
 
 /* ---------------- Elements ---------------- */
 html {
@@ -14,6 +6,7 @@ html {
   padding: 0;
   height: 100%;
   width: 100%;
+  background-color: var(--gunmetal);
 }
 
 body {
@@ -31,10 +24,107 @@ main {
   background-color: var(--gunmetal);
   font-family: serif;
   color: var(--offWhite);
+  font-size: 20px;
 }
 
 h1,h2,h3,h4,h5,h6 {
   margin: 0;
   padding: 0;
   font-family: verdana, serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ---------------- Formatting ---------------- */
+.centerText {
+  text-align: center;
+}
+
+.floatRight {
+  float: right;
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+   -khtml-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* ---------------- Custom Elements ---------------- */
+.pageTitle {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid var(--offWhite);
+  display: block;
+}
+
+.pageTitle h1 {
+  color: var(--offWhite);
+}
+
+.descriptionText {
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid var(--matte);
+  background-color: var(--purple);
+}
+
+.linkButton {
+  margin-top: 20px;
+}
+
+.linkButton a {
+  padding: 5px;
+  border: 1px solid var(--offWhite);
+  background-color: var(--matte);
+  display: inline;
+}
+
+.linkButton a:hover {
+  background-color: var(--lightPurple);
+}
+
+.resourceBar {
+  border-bottom: 1px solid var(--offWhite);
+  padding: 5px;
+  position: sticky;
+  top:0;
+  background-color: var(--gunmetal);
+}
+
+#coins {
+  font-size: 18px;
+}
+
+.resetButton {
+  margin-top: 3px;
+}
+
+.story {
+  background-color: var(--purple);
+  width: 60%;
+  height: 200px;
+  margin: 0 auto;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid var(--offWhite);
+}
+
+.nextButton {
+  background-color: var(--lightPurple);
+  width: 20%;
+  text-align: center;
+  border: 1px solid var(--gunmetal);
+  margin: 0 auto;
+  color: var(--gunmetal);
+}
+
+.nextButton:hover {
+  background-color: var(--matte);
 }
