@@ -9,21 +9,20 @@ const ui = {
     };
   },
   showContinue: function() {
-    elements.continueButton.style.display = "inline";
+    elements.onclicks.continueButton.style.display = "inline";
   },
   hideNext: function() {
-    elements.nextButton.style.display = "none";
+    elements.onclicks.nextButton.style.display = "none";
   },
   showNext: function() {
-    elements.nextButton.style.display = "block";
+    elements.onclicks.nextButton.style.display = "block";
   },
   showNameInput: function() {
     elements.nameInput.style.display = "inline";
-    elements.submitNameInput.style.display = "inline";
+    elements.onclicks.submitNameInput.style.display = "inline";
   },
   hideNameInput: function() {
     elements.nameInput.style.display = "none";
-    elements.submitNameInput.style.display = "none";
-
+    elements.onclicks.submitNameInput.style.display = "none";
   }
 }

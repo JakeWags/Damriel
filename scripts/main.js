@@ -1,7 +1,8 @@
 define(['player',
-        'elements',
         'ui',
         'story',
+        'elements',
+        'save',
         'onclick'],
   function(require) {
     player.savePlayer();

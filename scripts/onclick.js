@@ -1,11 +1,12 @@
+
 // onclick events
-if (elements.resetButton != null) {
-  elements.resetButton.onclick = function() { ui.reset() }
+if (document.getElementById('reset') != null) {
+  elements.onclicks.resetButton.onclick = function() { ui.reset() }
 }
-if (elements.nextButton != null) {
-  elements.nextButton.onclick = function() { story.next() }
+if (document.getElementById('nextButton') != null) {
+  elements.onclicks.nextButton.onclick = function() { story.next() }
 }
 
-if (elements.submitNameInput != null) {
-  elements.submitNameInput.onclick = function() { player.setName(nameInput.value) }
+if (document.getElementById('submitName') != null) {
+  elements.onclicks.submitNameInput.onclick = function() { player.setName(elements.nameInput.value) }
 }

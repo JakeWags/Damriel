@@ -5,7 +5,7 @@ const story = {
     "You're currently on a ship travelling to Kalderan, the Capital city of Gilgar.",
     "While finishing your letter to your family back in Yulmera, you hear shouting above deck.",
     "Curious, you poke your head out of your hatch and see men pulling ropes and you hear someone shout \"Land Ho!\"",
-    "You stamber up the deck to see what land you're approaching and a quick look around makes it obvious that you've arrive to the great port city of Kalderan.",
+    "You stamber up the deck to see what land you're approaching and a quick look around makes it obvious that you've arrived to the great port city of Kalderan.",
     "As the ship nears the dock, you can see hundreds of dock workers and deck hands working tirelessly, carrying boxes and boxes of goods from distant lands to be sold in the kingdoms many markets.",
     "The ship you're on carries passengers, however, many of which have gathered on the deck just as you have. The anxiety, excitement, and fear present on deck is overwhelming.",
     "Finally, the ship comes to a halt, and you are told to gather your belongings and head to the check in to be cleared for entry into the kingdom.",
