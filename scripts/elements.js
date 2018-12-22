@@ -1,4 +1,4 @@
-const elements = {
+let elements = {
   onclicks: {
     resetButton: document.getElementById('reset'),
     nextButton: document.getElementById('nextButton'),
@@ -8,6 +8,4 @@ const elements = {
   coinsDisplay: document.getElementById('coins'),
   storyText: document.getElementById('storyText'),
   nameInput: document.getElementById('nameInput'),
-
-
 }

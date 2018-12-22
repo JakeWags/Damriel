@@ -1,10 +1,4 @@
-define(['player',
-        'ui',
-        'story',
-        'elements',
-        'save',
-        'onclick'],
-  function(require) {
+define(['onclick'], function(require) {
     player.savePlayer();
     ui.updateCoins(player.balance);
-  });
+});
