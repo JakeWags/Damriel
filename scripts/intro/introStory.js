@@ -1,7 +1,7 @@
-let story;
+let introStory;
 
 define(['ui/ui','ui/elements'], function(require) {
-  story = {
+  introStory = {
     lines: [
       "Welcome to Damriel, a land where anything is possible...",
       "You've heard many tales of treasure, conflict, and treason on the continent.",
@@ -20,7 +20,7 @@ define(['ui/ui','ui/elements'], function(require) {
     ],
     currentLine: 0,
     updateText: function() {
-      elements.storyText.innerHTML = this.lines[this.currentLine];
+      elements.introStoryText.innerHTML = this.lines[this.currentLine];
     },
     next: function() {
       this.currentLine += 1;

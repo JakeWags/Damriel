@@ -6,6 +6,6 @@ let elements = {
     continueButton: document.getElementById('continueButton'),
   },
   coinsDisplay: document.getElementById('coins'),
-  storyText: document.getElementById('storyText'),
+  introStoryText: document.getElementById('introStoryText'),
   nameInput: document.getElementById('nameInput'),
 }

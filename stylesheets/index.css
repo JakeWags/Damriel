@@ -135,3 +135,11 @@ input {
 .nextButton:hover {
   background-color: var(--matte);
 }
+
+.helperText {
+  position: absolute;
+  top:-2px;
+  float:right;
+  width: 20%;
+  font-size: 16px;
+}

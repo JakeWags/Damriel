@@ -7,7 +7,7 @@ define(['player','intro/introStory','ui/elements'], function(require) {
         elements.onclicks.resetButton.onclick = function() { ui.reset() }
       }
       if (document.getElementById('nextButton') != null) {
-        elements.onclicks.nextButton.onclick = function() { story.next() }
+        elements.onclicks.nextButton.onclick = function() { introStory.next() }
       }
 
       if (document.getElementById('submitName') != null) {
