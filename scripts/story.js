@@ -1,6 +1,6 @@
 let story;
 
-define(['ui'], function(require) {
+define(['ui','elements'], function(require) {
   story = {
     lines: [
       "Welcome to Damriel, a land where anything is possible...",
