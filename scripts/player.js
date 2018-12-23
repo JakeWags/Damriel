@@ -1,6 +1,6 @@
 let player;
 
-define(['ui', 'save'], function(require) {
+define(['ui/ui', 'util/save'], function(require) {
   player = {
     name: localStorage.getItem("name") || "John Doe",
     balance: parseInt(localStorage.getItem("balance")) || 100,

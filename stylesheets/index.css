@@ -38,6 +38,11 @@ a {
   text-decoration: none;
 }
 
+input {
+  background-color: var(--offWhite);
+  color: var(--gunmetal);
+  border: 2px solid var(--matte);
+}
 /* ---------------- Formatting ---------------- */
 .centerText {
   text-align: center;
@@ -73,6 +78,8 @@ a {
   margin: 10px;
   border: 1px solid var(--matte);
   background-color: var(--purple);
+  width: 60%;
+  margin: 10px auto;
 }
 
 .linkButton {

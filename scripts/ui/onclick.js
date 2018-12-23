@@ -1,6 +1,6 @@
 let onclick = {};
 
-define(['player','story','elements'], function(require) {
+define(['player','intro/introStory','ui/elements'], function(require) {
   onclick = {// onclick events
     init: function() {
       if (document.getElementById('reset') != null) {

@@ -1,6 +1,6 @@
 let ui;
 
-define(['elements'], function(require) {
+define(['ui/elements'], function(require) {
   ui = {
     updateCoins: function(amount) {
       elements.coinsDisplay.innerHTML = amount;
