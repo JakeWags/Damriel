@@ -5,7 +5,7 @@ define(['ui/ui', 'util/save'], function(require) {
     name: localStorage.getItem("name") || "John Doe",
     balance: parseInt(localStorage.getItem("balance")) || 100,
     savePlayer: function() {
-      save.playerStats();
+      save.player();
     },
     setName: function(name) {
       this.name = name;

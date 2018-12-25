@@ -27,6 +27,12 @@ define(['ui/elements'], function(require) {
     hideNameInput: function() {
       elements.nameInput.style.display = "none";
       elements.onclicks.submitNameInput.style.display = "none";
-    }
+    },
+    updateStats: function() {
+      if (window.location.href.includes("stats.html")) {
+        elements.stats.totalCoins.innerHTML = stats.totalCoins;
+        elements.stats.totalKills.innerHTML = stats.totalKills;
+      }
+    },
   }
 });

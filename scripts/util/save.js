@@ -1,10 +1,14 @@
 let save;
 
-define(['player'], function(require) {
+define(['player/player'], function(require) {
   save = {
-    playerStats: function(){
+    player: function() {
       localStorage.setItem("balance", player.balance);
       localStorage.setItem("name", player.name);
+    },
+    stats: function() {
+      localStorage.setItem("totalCoins", stats.totalCoins);
+      localStorage.setItem("totalKills", stats.totalKills);
     }
   }
 });
